@@ -1,4 +1,4 @@
-package javaswingdev.titlebar;
+package javaswingdev;
 
 import java.awt.Component;
 import java.awt.Cursor;

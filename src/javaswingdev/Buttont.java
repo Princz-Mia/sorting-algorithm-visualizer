@@ -1,4 +1,4 @@
-package javaswingdev.titlebar;
+package javaswingdev;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;

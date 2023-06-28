@@ -1,11 +1,9 @@
-package javaswingdev.titlebar;
+package javaswingdev;
 
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
-import java.awt.geom.AffineTransform;
-import java.awt.image.BufferedImage;
 import javax.swing.*;
 
 public class SimpleTitleBar extends javax.swing.JPanel {

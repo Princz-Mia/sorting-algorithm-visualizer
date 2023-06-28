@@ -1,6 +1,4 @@
-package javaswingdev.titlebar;
-
-import javaswingdev.GoogleMaterialIcon;
+package javaswingdev;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

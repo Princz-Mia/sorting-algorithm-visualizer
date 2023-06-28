@@ -1,4 +1,4 @@
-package javaswingdev.shadow;
+package javaswingdev;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
