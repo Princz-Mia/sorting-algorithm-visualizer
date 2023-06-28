@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Sorting Algorithms Visualizer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sorting_Algorithms_Visualizer_jar</output-path>
+    <root id="archive" name="Sorting Algorithms Visualizer.jar">
+      <element id="module-output" name="Sorting Algorithms Visualizer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/swingx-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/button-custom.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/miglayout-4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/raven-project.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/filters-2.0.235.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/slider-gradient.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/swing-worker-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/TimingFramework-0.55.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
