@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms Visualizer.iml" filepath="$PROJECT_DIR$/Sorting Algorithms Visualizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting-algorithms-visualizer.iml" filepath="$PROJECT_DIR$/sorting-algorithms-visualizer.iml" />
     </modules>
   </component>
 </project>
