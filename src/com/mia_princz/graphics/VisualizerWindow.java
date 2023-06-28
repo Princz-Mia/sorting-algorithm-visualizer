@@ -1,6 +1,6 @@
 package com.mia_princz.graphics;
 
-import javaswingdev.SimpleTitleBar;
+import com.javaswingdev.SimpleTitleBar;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

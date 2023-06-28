@@ -1,6 +1,6 @@
 package com.mia_princz.graphics;
 
-import javaswingdev.GlassPanePopup;
+import com.javaswingdev.GlassPanePopup;
 
 /**
  * The main class that starts the visualization application.

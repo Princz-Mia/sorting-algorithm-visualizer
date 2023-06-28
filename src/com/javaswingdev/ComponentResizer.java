@@ -1,4 +1,4 @@
-package javaswingdev;
+package com.javaswingdev;
 
 import java.awt.Component;
 import java.awt.Cursor;

@@ -1,4 +1,4 @@
-package javaswingdev;
+package com.javaswingdev;
 
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;

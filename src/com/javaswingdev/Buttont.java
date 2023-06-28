@@ -1,4 +1,4 @@
-package javaswingdev;
+package com.javaswingdev;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;

@@ -1,4 +1,4 @@
-package javaswingdev;
+package com.javaswingdev;
 
 import java.awt.CardLayout;
 import java.awt.Component;

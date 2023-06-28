@@ -2,7 +2,7 @@ package com.mia_princz.graphics;
 
 import com.mia_princz.algorithms.*;
 
-import javaswingdev.*;
+import com.javaswingdev.*;
 
 import javax.swing.*;
 import java.awt.*;

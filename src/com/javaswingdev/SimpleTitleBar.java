@@ -1,4 +1,4 @@
-package javaswingdev;
+package com.javaswingdev;
 
 import java.awt.*;
 import java.awt.event.MouseAdapter;
