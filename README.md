@@ -65,7 +65,7 @@ To run the Sorting Algorithm Visualizer on your machine, follow these steps:
 
 ## Graphical Interface
 
-<a href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNqcTZpY3ZwNnJ0MThqdmNxeGtkdXFjaW44dHcxdWtscWFsMWxqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mNXiPDnvlvmMtfYuRo/giphy.gif"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNqcTZpY3ZwNnJ0MThqdmNxeGtkdXFjaW44dHcxdWtscWFsMWxqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mNXiPDnvlvmMtfYuRo/giphy.gif" style="align=center" title="Click to download picture" />
+<a href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNqcTZpY3ZwNnJ0MThqdmNxeGtkdXFjaW44dHcxdWtscWFsMWxqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mNXiPDnvlvmMtfYuRo/giphy.gif"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNqcTZpY3ZwNnJ0MThqdmNxeGtkdXFjaW44dHcxdWtscWFsMWxqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mNXiPDnvlvmMtfYuRo/giphy.gif" align="center" title="Click to download picture" />
 
 ## Contributing
 
