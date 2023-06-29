@@ -52,7 +52,7 @@ public class SimpleTitleBar extends javax.swing.JPanel {
         this.iconLabel.setBounds(3, 2, 25, 25);
 
         this.titleLabel.setBounds(40, 2, 1000, 25);
-        this.titleLabel.setFont(new Font("Arial", Font.PLAIN, 14));
+        this.titleLabel.setFont(new Font(Font.SANS_SERIF, Font.PLAIN,  14));
         this.titleLabel.setForeground(new Color(186, 148, 245));
 
         add(this.iconLabel);

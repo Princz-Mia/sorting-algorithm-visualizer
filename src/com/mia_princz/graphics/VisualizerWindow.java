@@ -46,7 +46,7 @@ public class VisualizerWindow extends JFrame {
      * layout, resizable property, and location of the window.
      */
     private void initWindow() {
-        setTitle("Sorting Algorithms Visualizer");
+        setTitle("Sorting Algorithm Visualizer");
         setIconImage(frameIcon);
         setSize(WIDTH,HEIGHT + 78);
         setUndecorated(true);
@@ -64,7 +64,7 @@ public class VisualizerWindow extends JFrame {
      */
     private void initTitleBar() {
         SimpleTitleBar titleBar = new SimpleTitleBar();
-        titleBar.init(this, titleIcon, "Sorting Algorithms Visualizer");
+        titleBar.init(this, titleIcon, "Sorting Algorithm Visualizer");
         titleBar.setBounds(0,0, 1600, 28);
 
         // Toggle Resize button
