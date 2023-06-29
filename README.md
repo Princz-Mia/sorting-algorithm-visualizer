@@ -63,6 +63,10 @@ To run the Sorting Algorithm Visualizer on your machine, follow these steps:
 7. Once the sorting is complete, the program will indicate the end of the process.
 8. Adjust the settings or select a different sorting algorithm to visualize another sorting process.
 
+## Graphical Interface
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNqcTZpY3ZwNnJ0MThqdmNxeGtkdXFjaW44dHcxdWtscWFsMWxqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mNXiPDnvlvmMtfYuRo/giphy.gif)
+
 ## Contributing
 
 Contributions to this project are welcome. If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
