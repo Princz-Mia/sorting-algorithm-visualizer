@@ -244,13 +244,16 @@ public class SettingsPanel extends PanelGlowingGradient implements ActionListene
         } else if (ae.getActionCommand().equals("sort")) {
             if (VisualizerPanel.getIsShufflerDone() && VisualizerPanel.isSortingDone()) {
                 if (selectedSorting == null) {
+                    initMissingAlgorithmErrorMessage();
                     return;
                 }
 
-                boolean isPowerOfTwo = ((int) Math.ceil((Math.log(VisualizerPanel.getBaseColumnNumber()) / (Math.log(2)))) == (int) (Math.floor((Math.log(VisualizerPanel.getBaseColumnNumber()) / Math.log(2)))));
-                if (selectedSorting.equals("Bitonic Sort") && !isPowerOfTwo) {
-                    initBitonicSortErrorMessage();
-                    return;
+                if (selectedSorting.equals("Bitonic Sort")) {
+                    boolean isPowerOfTwo = ((int) Math.ceil((Math.log(VisualizerPanel.getBaseColumnNumber()) / (Math.log(2)))) == (int) (Math.floor((Math.log(VisualizerPanel.getBaseColumnNumber()) / Math.log(2)))));
+                    if (!isPowerOfTwo) {
+                        initBitonicSortErrorMessage();
+                        return;
+                    }
                 }
 
                 VisualizerPanel.setSortingDone(false);
@@ -287,23 +290,26 @@ public class SettingsPanel extends PanelGlowingGradient implements ActionListene
         }
     }
 
+    private void initMissingAlgorithmErrorMessage() {
+        Message obj = new Message();
+        obj.titleLabel.setText("Missing Sorting Algorithm Selection");
+
+        obj.text.setText("""
+                Please select a sorting algorithm from the dropdown menu before sorting the array. You can choose an algorithm by clicking on the dropdown and selecting one. Once you've made your selection, you can proceed by pressing the 'Sort Array' button.
+                \nPlease press the OK button to proceed . . .""");
+
+        obj.eventOK(ae -> GlassPanePopup.closePopupLast());
+        GlassPanePopup.showPopup(obj);
+    }
+
     private void initBitonicSortErrorMessage() {
         Message obj = new Message();
-        obj.titleLabel.setText("Wrong settings. . .");
+        obj.titleLabel.setText("Invalid Array Size for Bitonic Sort");
 
-        obj.text.setText("The array's size must be a power of two number for Bitonic Sort! " +
-                "You are able to change the size by using the slider above on the settings panel. " +
-                "To continue please press the OK button . . .");
+        obj.text.setText("""
+                To ensure proper functioning of the Bitonic Sort algorithm, the size of the array must be a power of two. You can modify the size by using the slider located in the settings panel.
+                \nPlease press the OK button to proceed . . .""");
 
-        /*
-        obj.eventOK(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent ae) {
-                GlassPanePopup.closePopupLast();
-            }
-        });
-        GlassPanePopup.showPopup(obj);
-         */
         obj.eventOK(ae -> GlassPanePopup.closePopupLast());
         GlassPanePopup.showPopup(obj);
     }
